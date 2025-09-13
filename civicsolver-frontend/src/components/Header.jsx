@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <header className="header">
       <Link to={role === 'head' ? '/head' : '/'} className="header-title">
-        Community Reporter
+        Civic Solver
       </Link>
       <nav className="header-nav">
         {!isLoggedIn ? (

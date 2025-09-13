@@ -130,7 +130,7 @@ const ProblemsList = ({ showLandingPage = true }) => {
                 <div className="hero-icon">
                   <i className="icon-community"></i>
                 </div>
-                <h1 className="hero-title">Community Problem Reporting Portal</h1>
+                <h1 className="hero-title">Report. Raise. Resolve.</h1>
                 <p className="hero-subtitle">Empowering communities to identify, report, and resolve local issues together</p>
                 <div className="hero-buttons">
                   <button className="btn btn-primary" onClick={handleReportOrLogin}>
@@ -336,7 +336,7 @@ const ProblemsList = ({ showLandingPage = true }) => {
                 <div className="footer-section">
                   <div className="footer-logo">
                     <i className="icon-community"></i>
-                    <h3>Community Reporter</h3>
+                    <h3>Civic Solver</h3>
                   </div>
                   <p>Making communities better through collaborative problem-solving and citizen engagement</p>
                   <div className="social-links">
