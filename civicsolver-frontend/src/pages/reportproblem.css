@@ -1,0 +1,100 @@
+.report-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: #f7f9fa;
+}
+
+.report-form {
+  background: #fff;
+  padding: 32px 28px 24px 28px;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 420px;
+  position: relative;
+}
+
+.report-form h2 {
+  margin-bottom: 22px;
+  color: #222;
+  font-weight: 600;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  background: #f9fafb;
+  transition: border 0.2s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border: 1.5px solid #007bff;
+  outline: none;
+  background: #fff;
+}
+
+.input-group textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #007bff 60%, #0056b3 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+  margin-top: 10px;
+}
+
+.submit-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #e6ffed;
+  color: #1a7f37;
+  border: 1px solid #b7eb8f;
+  border-radius: 10px;
+  padding: 22px 38px;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.13);
+  z-index: 9999;
+  animation: fadeIn 0.4s;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+}
